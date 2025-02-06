@@ -76,14 +76,22 @@ header {
  #navbar ul li a:hover {
      border-bottom: 2px solid #fff;
  }
-
 .content {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center; 
     gap: 40px; 
     max-width: 1200px; 
 }
+
+
+
+.content img {
+    flex: 1;
+    max-width: 500px;
+    
+    
+}   
 .content p {
     color: whitesmoke;
     margin-right: 6rem;
@@ -92,11 +100,8 @@ header {
     font-weight: 500;
     font-size: 17px;
     line-height: 1.5;
+    
 }
-.content img {
-    flex: 1;
-    max-width: 500px;    
-} 
    
    
 
