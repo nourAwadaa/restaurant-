@@ -77,8 +77,6 @@ header {
      border-bottom: 2px solid #fff;
  }
 
-
-
 .content {
     display: flex;
     align-items: center; 
@@ -94,15 +92,10 @@ header {
     font-weight: 500;
     font-size: 17px;
     line-height: 1.6;
-    
 }
-
-
 .content img {
     flex: 1;
-    max-width: 500px;
-    
-    
+    max-width: 500px;    
 } 
    
    
