@@ -86,19 +86,6 @@ header {
     gap: 40px; 
     max-width: 1200px; 
 }
-
-
-
-.content img {
-    flex: 1;
-    max-width: 500px;
-    
-    
-} 
-   
-    
-
-}    
 .content p {
     color: whitesmoke;
     margin-right: 6rem;
@@ -109,5 +96,16 @@ header {
     line-height: 1.6;
     
 }
+
+
+.content img {
+    flex: 1;
+    max-width: 500px;
+    
+    
+} 
+   
+   
+
 
 
