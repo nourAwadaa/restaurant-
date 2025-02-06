@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -91,10 +91,7 @@ form {
     background-color: #e3e2dd;
   }
   
-  form input:focus,
-  textarea:focus {
-    outline: none;
-  }
+  
   
   form button {
     
@@ -112,21 +109,21 @@ form {
    }
    #contact {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
-    backdrop-filter: blur(20px); /* Apply a blur effect */
+    background-color: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(20px); 
 }
 
 #contact .container {
     display: flex;
-    justify-content: space-between; /* Align items horizontally */
-    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
 
 #contact .address,
 #contact .working-hours,
 #contact .follow-us {
-    flex: 1; /* Allow sections to grow and fill space */
-    margin: 0 20px; /* Add margin between sections */
+    flex: 1; 
+    margin: 0 20px; 
 }
 
 #contact h3 {
