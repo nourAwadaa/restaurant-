@@ -79,10 +79,23 @@ header {
 
 
 
-.content{
+.content {
     display: flex;
-    gap: 20px;
-    flex: 1 1 calc(50% - 20px);
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px; 
+    max-width: 1200px; 
+}
+
+
+
+.content img {
+    flex: 1;
+    max-width: 500px;
+    
+    
+} 
+   
     
 
 }    
@@ -96,9 +109,5 @@ header {
     line-height: 1.6;
     padding-top: 40px;
 }
-.content img {
-    margin-right: 7rem;
-    margin-left: 7rem;
-    margin-top: -20px;
-}
+
 
