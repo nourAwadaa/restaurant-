@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 20vh;
+ }
+ #navbar {
+     
+     font-family: "Quicksand", sans-serif; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100px;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.3);
+     backdrop-filter: blur(10px);
+ }
+ #navbar img {
+     width: 130px;
+     margin: 0 20px;
+ }
+ #navbar ul {
+     display: flex;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ } 
+ #navbar ul.left-nav{
+     margin-right: 20px;
+ }
+ #navbar ul.right-nav {
+     margin-left: 20px;
+ } 
+ #navbar li {
+     margin: 0 15px;
+ } 
+ #navbar ul li a {
+     padding: 15px 20px;
+     color: white;
+     font-weight: 600;
+ } 
+ #navbar ul li a:hover {
+     border-bottom: 2px solid #fff;
+ }
+.order_title{
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    
+}
+.order_title h2{
+    color: whitesmoke;
+    font-family:"quicksand", sans-serif;
+    padding-bottom: 10px;
+}
+
+.spacer{
+    display: block;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+    opacity: 1;
+    text-align: center;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  form input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+    background-color: #e3e2dd;
+  }
+  
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form button {
+    
+        display: inline-block;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 15px;  
+        font-family: "Quicksand", sans-serif;  
+        color:black;
+        border: 1px solid #fff;
+    }
+  form button:hover{
+        background-color: #0f0e0a;
+        color: white;
+   }
+   #contact {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    backdrop-filter: blur(20px); /* Apply a blur effect */
+}
+
+#contact .container {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: flex-start; /* Align items to the top */
+}
+
+#contact .address,
+#contact .working-hours,
+#contact .follow-us {
+    flex: 1; /* Allow sections to grow and fill space */
+    margin: 0 20px; /* Add margin between sections */
+}
+
+#contact h3 {
+    font-size: 24px;
+    color: #0f0e0a;
+    margin-bottom: 10px;
+}
+
+#contact p,
+#contact a {
+    color: #0f0e0a; 
+}
+
+ 
+  
+
+  

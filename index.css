@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+header {
+   height: 100vh;
+}
+#navbar {
+    font-family: "Quicksand", sans-serif;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+#navbar img {
+    width: 130px;
+    margin: 0 20px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul.left-nav{
+    margin-right: 20px;
+}
+#navbar ul.right-nav {
+    margin-left: 20px;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 75vh;
+    width: 100%;
+    padding-left: 740px;
+    color: #fff;
+    
+}
+
+.hero h1{
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.hero p{
+    padding-bottom: 25px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 15px;    
+    color: #fff;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
